@@ -1,0 +1,21 @@
+# Ignorar archivos y carpetas generados por Angular CLI
+node_modules/
+dist/
+*.log
+*.iml
+
+# Ignorar archivos y carpetas generados por Spring Boot
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Ignorar archivos de configuración específicos de tu IDE (por ejemplo, IntelliJ IDEA)
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Otros archivos y carpetas generados durante el desarrollo que no deben incluirse en el repositorio
+*.DS_Store
